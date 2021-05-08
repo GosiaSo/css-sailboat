@@ -1,0 +1,63 @@
+﻿body {
+    background: #66ccff;
+    margin: 0px;
+}
+.sea {
+    position: absolute;
+    top: 55%;
+    height: 45%;
+    width: 100%;
+    background: #0099ff;
+}
+.sun {
+    position: absolute;
+    top: 6vh;
+    left: 6vh;
+    width: 8vh;
+    min-height: 50px;
+    min-width: 50px;
+    height: 8vh;
+    border-radius: 50%;
+    background: #ffff66;
+}
+.boat {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    height: 50px;
+    width: 300px;
+    background: #996633;
+    border-radius: 60% / 250%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.mast {
+    position: absolute;
+    top:-200px;
+    left: 145px;
+    height: 200px;
+    width: 10px;
+    background: #996633;
+}
+.back-sail {
+    position: absolute;
+    left:13px;
+    top:40px;
+    width: 0;
+    height: 0;
+    opacity: 0.6;
+    border-bottom: 155px solid white;
+    border-right: 100px solid transparent;
+}
+.front-sail {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    opacity: 0.6;
+    border-bottom: 180px solid white;
+    border-left: 140px solid transparent;
+}
+
+
